@@ -16,7 +16,10 @@ protocol CoinManagerDelegate {
 struct CoinManager {
     
     let baseURL = "https://rest.coinapi.io/v1/exchangerate/BTC"
-    let apiKey = "97A94EBF-7B55-4F47-8941-26A4F7C09B3C"
+    // Go to https://www.coinapi.io/ to get your own free api key and read the docs to get the correct key
+    // This app works with the  Market data REST API exchanges rates https://docs.coinapi.io/#exchange-rates
+    // Once you have your api key replace constant below and give it a go. Note new api keys take a few minutes to regisger with their servers
+    let apiKey = "YOUR API KEY"
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     
